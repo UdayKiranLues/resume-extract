@@ -1,0 +1,33 @@
+{
+  "name": "resume-extractor",
+  "version": "1.0.0",
+  "description": "MERN Resume Extractor with PDF/DOCX support",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js",
+    "client": "cd client && npm run dev",
+    "server": "nodemon api/index.js",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["resume", "extractor", "mern", "pdf", "docx"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1",
+    "mammoth": "^1.6.0",
+    "exceljs": "^4.4.0",
+    "nodemailer": "^6.9.7",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
